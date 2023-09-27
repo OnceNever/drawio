@@ -1,9 +1,113 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T14:37:08.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.8.1" etag="bHavS9qyRNXfLr7STKax" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T14:48:39.652Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="2RyB102OxqCAE_ulmF96" version="21.8.1" type="github">
   <diagram name="第 1 页" id="0l427KDCx93fFcGH5Uju">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="758" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-1" value="浏览器" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#eeeeee;sketch=1;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="109" y="114" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-2" value="缓存" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#eeeeee;sketch=1;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="355" y="114" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-3" value="服务器" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#eeeeee;sketch=1;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="600" y="114" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="tN9k4D4Io5OLMX0KuGv7-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="152" y="645" as="sourcePoint" />
+            <mxPoint x="437" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="398" y="642" as="sourcePoint" />
+            <mxPoint x="405" y="156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="643" y="643" as="sourcePoint" />
+            <mxPoint x="650" y="157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="158" y="227" as="sourcePoint" />
+            <mxPoint x="404" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-8" value="1.请求数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tN9k4D4Io5OLMX0KuGv7-7">
+          <mxGeometry x="-0.1545" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="277" as="sourcePoint" />
+            <mxPoint x="154" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-10" value="2.缓存未命中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tN9k4D4Io5OLMX0KuGv7-9">
+          <mxGeometry x="0.0123" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="156" y="323" as="sourcePoint" />
+            <mxPoint x="646" y="327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-12" value="3.请求数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tN9k4D4Io5OLMX0KuGv7-11">
+          <mxGeometry x="-0.004" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="642" y="377" as="sourcePoint" />
+            <mxPoint x="154" y="372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-14" value="4.返回数据和缓存规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tN9k4D4Io5OLMX0KuGv7-13">
+          <mxGeometry x="0.0021" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="158" y="421" as="sourcePoint" />
+            <mxPoint x="400" y="423" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-16" value="5.将数据和规则放入缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tN9k4D4Io5OLMX0KuGv7-15">
+          <mxGeometry x="0.0001" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="156" y="473" as="sourcePoint" />
+            <mxPoint x="398" y="476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-18" value="6.再次请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tN9k4D4Io5OLMX0KuGv7-17">
+          <mxGeometry x="0.0082" y="1" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="397" y="530" as="sourcePoint" />
+            <mxPoint x="156" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN9k4D4Io5OLMX0KuGv7-20" value="7.返回缓存的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tN9k4D4Io5OLMX0KuGv7-19">
+          <mxGeometry x="0.0293" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
